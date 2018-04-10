@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="bottom"
+       android:background="@color/bg">
+       <GridLayout
+           android:layout_width="250dp"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:columnCount="3"
+           android:rowCount="4"
+           android:layout_gravity="bottom"
+           tools:context="com.example.bangaram.copylayoutchallenge.MainActivity"
+           android:id="@+id/gridLayout">
+
+           <Button
+               android:text="@string/seven"
+               android:textAppearance="@style/Base.Theme.AppCompat.Light"
+               android:textColor="@color/white"
+               android:textSize="@dimen/thy"
+               android:padding="@dimen/tt"
+               android:background="@color/darkgrey"/>
+
+           <Button android:text="@string/eight"
+               android:textAppearance="@style/Base.Theme.AppCompat.Light"
+               android:textColor="@color/white"
+               android:textSize="@dimen/thy"
+               android:padding="@dimen/tt"
+               android:background="@color/darkgrey"/>
+
+           <Button android:text="@string/nine"
+               android:textColor="@color/white"
+               android:textAppearance="@style/Base.Theme.AppCompat.Light"
+               android:textSize="@dimen/thy"
+               android:padding="@dimen/tt"
+               android:background="@color/darkgrey"/>
+
+           <Button android:text="@string/four"
+               android:textColor="@color/white"
+               android:textAppearance="@style/Base.Theme.AppCompat.Light"
+               android:textSize="@dimen/thy"
+               android:padding="@dimen/tone"
+               android:background="@color/darkgrey"
+               />
+
+           <Button android:text="@string/five"
+               android:textColor="@color/white"
+               android:textAppearance="@style/Base.Theme.AppCompat.Light"
+               android:textSize="@dimen/thy"
+               android:padding="@dimen/tone"
+               android:background="@color/darkgrey"
+               />
+
+           <Button android:text="@string/six"
+               android:textColor="@color/white"
+               android:textSize="@dimen/thy"
+               android:textAppearance="@style/Base.Theme.AppCompat.Light"
+               android:padding="@dimen/tone"
+               android:background="@color/darkgrey"/>
+
+           <Button android:text="@string/one"
+               android:textColor="@color/white"
+               android:textSize="@dimen/thy"
+               android:textAppearance="@style/Base.Theme.AppCompat.Light"
+               android:padding="@dimen/tone"
+               android:background="@color/darkgrey"/>
+
+           <Button android:text="@string/two"
+               android:textColor="@color/white"
+               android:textSize="@dimen/thy"
+               android:textAppearance="@style/Base.Theme.AppCompat.Light"
+               android:padding="@dimen/tone"
+               android:background="@color/darkgrey"/>
+
+           <Button android:text="@string/three"
+               android:textColor="@color/white"
+               android:textSize="@dimen/thy"
+               android:textAppearance="@style/Base.Theme.AppCompat.Light"
+               android:padding="@dimen/tone"
+               android:background="@color/darkgrey"/>
+
+           <Button android:text="@string/dot"
+               android:textColor="@color/white"
+               android:textSize="@dimen/thy"
+               android:textAppearance="@style/Base.Theme.AppCompat.Light"
+               android:padding="@dimen/tone"
+               android:background="@color/darkgrey"/>
+
+           <Button android:text="@string/zero"
+               android:textColor="@color/white"
+               android:textSize="@dimen/thy"
+               android:textAppearance="@style/Base.Theme.AppCompat.Light"
+               android:padding="@dimen/tone"
+               android:background="@color/darkgrey"/>
+
+           <Button android:text="@string/equal"
+               android:textColor="@color/white"
+               android:textSize="@dimen/thy"
+               android:textAppearance="@style/Base.Theme.AppCompat.Light"
+               android:padding="@dimen/tone"
+               android:background="@color/darkgrey"/>
+       </GridLayout>
+       <GridLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:columnCount="1"
+           android:layout_gravity="bottom">
+           <Button android:text="@string/del"
+               android:textAppearance="@style/Base.Theme.AppCompat.Light"
+               android:textColor="@color/white"
+               android:textSize="@dimen/tsone"
+               android:padding="@dimen/ts"
+
+               android:background="@color/lightgrey"/>
+
+           <Button android:text="@string/div"
+               android:textAppearance="@style/Base.Theme.AppCompat.Light"
+               android:textColor="@color/white"
+               android:textSize="@dimen/tsone"
+               android:padding="@dimen/tone"
+               android:background="@color/lightgrey"/>
+
+           <Button android:text="@string/mul"
+               android:textAppearance="@style/Base.Theme.AppCompat.Light"
+               android:textColor="@color/white"
+               android:textSize="@dimen/tsone"
+               android:padding="@dimen/stn"
+               android:background="@color/lightgrey"/>
+
+           <Button android:text="@string/minus"
+               android:textAppearance="@style/Base.Theme.AppCompat.Light"
+               android:textColor="@color/white"
+               android:textSize="@dimen/tsone"
+               android:padding="@dimen/stn"
+               android:background="@color/lightgrey"/>
+
+           <Button android:text="@string/plus"
+               android:textAppearance="@style/Base.Theme.AppCompat.Light"
+               android:textColor="@color/white"
+               android:textSize="@dimen/tsone"
+               android:padding="@dimen/ntn"
+               android:background="@color/lightgrey"/>
+       </GridLayout>
+
+   </LinearLayout>
+
+</LinearLayout>
+
