@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tone">21dp</dimen>
+    <dimen name="thy">30sp</dimen>
+    <dimen name="tsone">20sp</dimen>
+    <dimen name="stn">20dp</dimen>
+    <dimen name="ntn">18dp</dimen>
+    <dimen name="tt">22dp</dimen>
+    <dimen name="ts">19.2dp</dimen>
+</resources>
